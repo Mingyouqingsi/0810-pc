@@ -1,7 +1,10 @@
 //引入头部
-import header from './header'
+import main from './main'
+//引入第一屏
 
+import firstView from './firstView'
 //导入less文件
 import '../less/index.less';
 
-header()
+main()
+firstView();

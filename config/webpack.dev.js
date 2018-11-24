@@ -80,7 +80,7 @@ module.exports = {
               //请设置 failOnHint 参数为true
               failOnHint: false,
               esversion: 6,
-              loopfunc:ture
+              loopfunc:true
               // 自定义报告函数
               // reporter: function(errors) { }
             }
