@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+    }
+
+    body{
+      background: grey;
+    }
+    #myCanvas{
+      width: 150px;
+      height: 400px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: white;
+    }
+
+
+  </style>
+
+  <script type="text/javascript">
+    window.onload = function () {
+      const canvas = document.querySelector('#myCanvas')
+      const width = canvas.width;
+      const height = canvas.height
+      //颜色随机生成
+      setInterval(() =>{
+        const r = Math.round(Math.random() * 255);
+        const g = Math.round(Math.random() * 255);
+        const b = Math.round(Math.random() * 255);
+        //半径随机
+        const circle_r = Math.round(Math.random() *8 + 2)
+
+        //位置随机
+
+
+      })
+
+    }
+
+  </script>
+</head>
+<body>
+<canvas id="myCanvas"></canvas>
+</body>
+</html>
